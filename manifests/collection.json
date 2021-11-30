@@ -1,0 +1,13 @@
+{
+  "id" : "https://Jashton123.github.io/iiifWorkshopTest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in Jashton123/iiifWorkshopTest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://Jashton123.github.io/iiifWorkshopTest/manifests/manifest2.json",
+    "label" : "Canterbury tales test"
+  } ]
+}
