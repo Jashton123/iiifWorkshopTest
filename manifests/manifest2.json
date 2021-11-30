@@ -1,0 +1,209 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Jashton123.github.io/iiifWorkshopTest/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Canterbury tales test",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Test manifest for Canterbuy tales images",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "Images provided by the British Library",
+  "sequences" : [ {
+    "@id" : "http://59865171-ccc4-4bc3-a29f-48414a44241d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://32343b74-0ef2-4feb-8ab4-436754d6db87",
+      "@type" : "sc:Canvas",
+      "label" : "Canterbury tales Front cover",
+      "height" : 4072,
+      "width" : 2900,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9185849f-6072-4095-b889-e1bdfa606561",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4072,
+          "width" : 2900
+        },
+        "on" : "http://32343b74-0ef2-4feb-8ab4-436754d6db87"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://8be603ae-639b-4c00-bcbc-d6b4caa11d91",
+      "@type" : "sc:Canvas",
+      "label" : "Canterbury tales Inside front cover",
+      "height" : 4072,
+      "width" : 2900,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://70701dd1-517f-44c0-8d4d-195e41c64fc0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000002/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000002",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4072,
+          "width" : 2900
+        },
+        "on" : "http://8be603ae-639b-4c00-bcbc-d6b4caa11d91"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://24b5ba7d-2be7-4421-a1e7-5187a23b02cc",
+      "@type" : "sc:Canvas",
+      "label" : "Canterbury tales recto front cover",
+      "height" : 4072,
+      "width" : 2720,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://bc4991a3-7f98-4c81-8d0a-52b701cf1bc9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000003/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000003",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4072,
+          "width" : 2720
+        },
+        "on" : "http://24b5ba7d-2be7-4421-a1e7-5187a23b02cc"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://c45afc31-9732-4e86-b5d3-5a7b63a03606",
+      "@type" : "sc:Canvas",
+      "label" : "Shelfmark",
+      "height" : 4072,
+      "width" : 2720,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://43c8880c-1a77-497b-8f93-b3649bc66b07",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000004/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000004",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4072,
+          "width" : 2720
+        },
+        "on" : "http://c45afc31-9732-4e86-b5d3-5a7b63a03606"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://3a03ff13-06ef-4b15-afad-ae74ee25cff6",
+      "@type" : "sc:Canvas",
+      "label" : "Provenance notes",
+      "height" : 4072,
+      "width" : 2720,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1ae5ce53-eb5e-4047-b433-85efe7b9077f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000005/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000005",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4072,
+          "width" : 2720
+        },
+        "on" : "http://3a03ff13-06ef-4b15-afad-ae74ee25cff6"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://302e2634-d19f-4da4-8ff5-782c9212595f",
+      "@type" : "sc:Canvas",
+      "label" : "Owner's stamp",
+      "height" : 4072,
+      "width" : 2720,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://efe50d4a-d962-4089-8ee0-2f28910f6db3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000006/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100054594479.0x000006",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4072,
+          "width" : 2720
+        },
+        "on" : "http://302e2634-d19f-4da4-8ff5-782c9212595f"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
