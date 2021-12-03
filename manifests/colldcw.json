@@ -1,0 +1,23 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Jashton123.github.io/iiifWorkshopTest/manifests/colldcw.json",
+  "@type" : "sc:Collection",
+  "label" : " Senshoku zuan / Tsuda Seifū.",
+  "manifests" : [ {
+    "@id" : "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100098895640.0x000001/manifest.json",
+    "@type" : "sc:Manifest",
+    "label" : "Volume 1"
+  }, {
+    "@id" : "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100099234730.0x000001/manifest.json",
+    "@type" : "sc:Manifest",
+    "label" : "Volume 2"
+  }, {
+    "@id" : "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100100875680.0x000001/manifest.json",
+    "@type" : "sc:Manifest",
+    "label" : "Volume 3"
+  }, {
+    "@id" : "https://api.bl.uk/metadata/iiif/ark:/81055/vdc_100101008565.0x000001/manifest.json",
+    "@type" : "sc:Manifest",
+    "label" : "Volume 4"
+  } ]
+}
