@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://Jashton123.github.io/iiifWorkshopTest/manifests/manifest2.json",
     "label" : "Canterbury tales test"
+  }, {
+    "@type" : "sc:Collection",
+    "@id" : "https://Jashton123.github.io/iiifWorkshopTest/manifests/colldcw.json",
+    "label" : " Senshoku zuan / Tsuda Seifū."
   } ]
 }
